@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 
 ytMeta() {
 ffmpeg -i $1 -f ffmetadata metadata.txt
