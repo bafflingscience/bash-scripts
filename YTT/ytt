@@ -12,4 +12,4 @@ echo "The Heckin' Best, You Is."
 
   cd $HOME/Video/uncategorized_ytt_downloads;
   find . -type f \( -name '*.jpg' -or -name '*.webp' \) -delete \
-  2> $HOME/Video/uncategorized_ytt_downloads/findfails.txt \
+  2> $HOME/Video/uncategorized_ytt_downloads/findfails.txt
