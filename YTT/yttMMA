@@ -5,4 +5,4 @@ $HOME/.pyenv/shims/youtube-dl \
  -o "/Volumes/fourtb/Video/Channels/MMA/%(uploader)s/%(upload_date)s - %(title)s.%(ext)s" \
  --batch-file /Users/user/Archive/channels/mma.txt \
 
-echo "Great Job Dave! Wow!"
+echo "Great Job! Wow!"
