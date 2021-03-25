@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 
 mkreadable() {
 /usr/local/bin/gs \ 
