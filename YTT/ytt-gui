@@ -9,8 +9,4 @@ $url | /usr/local/bin/zenprog
 }
 ytdl $url 2> /Volumes/fourtb/Video/uncategorized_ytt_downloads/ytt.errors.txt
 
-#echo "Well butter my buns and cover me in honey! I'm so frickin' proud!"
-#ARTIST='%(artist)s/'
-#-encoding ENCODING
-
- #/usr/local/bin/youtube-dl \
+#echo "You're the Heckin' Best. Yeah Yeah Yeah!"
