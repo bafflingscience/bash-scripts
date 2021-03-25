@@ -9,11 +9,3 @@
 
 echo "The Truth is Out There"
 
-
-# --metadata 'description=Ben Shapiro'
-#--playlist-items 1-30 \
-# --max-downloads 100 \
-# --dateafter 20200301 \
-# --match-filter "description  'Andrew Klavan'" \
-# -o "~/Videos/YouTube/Channels/%(uploader)s/%(upload_date)s - %(title)s.%(ext)s" \
-
