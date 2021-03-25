@@ -1,6 +1,7 @@
-#!/bin/bash
+#!/bin/zsh
+
 ytdl() {
-  /usr/local/bin/youtube-dl \
+  $HOME/.pyenv/shims/youtube-dl \
   --config-location $HOME/.config/youtube-dl/config/youtube-dl.conf \
   --yes-playlist \
   --max-filesize 800m \
@@ -9,6 +10,4 @@ ytdl() {
 }
 ytdl $1 2> /home/userdeb/Video/channels/yttChannel.err.txt
 
-#--dateafter 20200801 \
-#--datebefore 20200901 \
-echo "wah wah weeh wah! wah wah weeh wah!"
+echo "POW! ZANG! POP! WHOOSH!"
