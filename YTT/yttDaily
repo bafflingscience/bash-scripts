@@ -1,4 +1,5 @@
 #!/bin/zsh
+
 $HOME/.pyenv/shims/youtube-dl \
 --config-location /Users/user/.config/youtube-dl/config/youtube-dl.conf \
 --playlist-items 1-10 \
