@@ -9,4 +9,4 @@ $url | /usr/local/bin/zenprog
 }
 ytdl $url 2> /Volumes/fourtb/Video/uncategorized_ytt_downloads/ytt.errors.txt
 
-#echo "You're the Heckin' Best. Yeah Yeah Yeah!"
+echo "You're the Heckin' Best! Yeah! Yeah! Yeah!"
