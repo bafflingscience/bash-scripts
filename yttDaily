@@ -1,0 +1,9 @@
+#!/bin/zsh
+$HOME/.pyenv/shims/youtube-dl \
+--config-location /Users/user/.config/youtube-dl/config/youtube-dl.conf \
+--playlist-items 1-10 \
+-o "/Volumes/fourtb/Video/channels/%(uploader)s/%(upload_date)s - %(title)s.%(ext)s" \
+--batch-file /Users/user/Archive/channels/channels.txt
+
+echo "Another job well done you little go getter you!"
+

@@ -1,0 +1,6 @@
+#!/bin/bash
+
+ytMeta() {
+ffmpeg -i $1 -f ffmetadata metadata.txt
+}
+yttMeta $1

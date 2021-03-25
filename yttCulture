@@ -1,0 +1,13 @@
+#!/bin/zsh
+/usr/local/bin/youtube-dl \
+--config-location $HOME/.config/youtube-dl/config/youtube-dl.conf \
+--playlist-items 1-20 \
+--reject-title "(Andres\sKlavan)|(ANDREW\sKLAVAN)|(KLAVAN)|(Michael\sKnowles)|(MICHAEL\sKNOWLES)|(KNOWLES)|(Matt\sWalsh)|(MATT\sWALSH)|(WALSH)" \
+-o "$HOME/Video/channels/culture/%(uploader)s/%(upload_date)s - %(title)s.%(ext)s" > \
+$HOME/Video/channels/culture/culture_channels_log.txt 2>&1 \
+--batch-file $HOME/Archive/channels/culture.txt
+
+echo "\nDamn Dave, You DID IT! Come here and give me a GREAT BIG HUG!!"
+
+# Add time stamp
+#https://stackoverflow.com/questions/1507674/how-to-add-timestamp-to-stderr-redirection#1507699

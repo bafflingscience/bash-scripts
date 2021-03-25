@@ -1,0 +1,13 @@
+#!/bin/zsh
+ytdl() {
+/home/userdeb/.pyenv/shims/youtube-dl \
+  --config-location $HOME/.config/youtube-dl/config/custom/ytaudio.conf \
+  --playlist-items 1-200 \
+  --extract-audio \
+  --audio-quality 0 \
+  -o "/mnt/c/Users/theda/Videos/uncategorized-ytaudio/%(uploader)s - %(title)s.%(ext)s" \
+$1
+}
+ytdl $1 2> /mnt/c/Users/theda/Videos/uncategorized-ytaudio/ytaudio.err.txt
+#
+echo "Mission Accomplished you Sly Devil You!"

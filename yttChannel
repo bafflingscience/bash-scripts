@@ -1,0 +1,14 @@
+#!/bin/bash
+ytdl() {
+  /usr/local/bin/youtube-dl \
+  --config-location $HOME/.config/youtube-dl/config/youtube-dl.conf \
+  --yes-playlist \
+  --max-filesize 800m \
+  -o "/home/userdeb/Video/channels/%(uploader)s/%(upload_date)s - %(title)s.%(ext)s" \
+  $1
+}
+ytdl $1 2> /home/userdeb/Video/channels/yttChannel.err.txt
+
+#--dateafter 20200801 \
+#--datebefore 20200901 \
+echo "wah wah weeh wah! wah wah weeh wah!"

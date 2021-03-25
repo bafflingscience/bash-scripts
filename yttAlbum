@@ -1,0 +1,13 @@
+#!/bin/zsh
+
+ytdl() {
+  /home/userdeb/.pyenv/shims/youtube-dl \
+  --config-location $HOME/.config/youtube-dl/config/youtube-dl.conf \
+  -x \
+  --audio-format "mp3" \
+  -o "$HOME/Music/%(album)s %(album_artist)s/%(track_number)s - %(track)s.%(ext)s" \
+$1
+}
+ytdl $1 2> /mnt/c/Users/theda/Music/yttAlbum.err.txt
+
+echo "easy as potato"

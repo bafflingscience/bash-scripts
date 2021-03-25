@@ -1,0 +1,10 @@
+#!/bin/zsh
+cat ~/Downloads/* | ffmpeg -f image2pipe -i - output.mkv
+
+# slow it down
+
+cat ~/Downloads/* | ffmpeg -framerate 1.53 image2pipe -i - output-framrate153.mkv
+
+# add song
+
+cat ~/Downloads/* | ffmpeg -f image2pipe -i - -i song-input.mkv -acodec copy output-audio-framerate154.mkv

@@ -1,0 +1,4 @@
+#!/bin/zsh
+fyle=$(echo "$1" | sed 's/file:\/\///')
+yewrell=$(grep -oP 'href="\K([^"]*localhost[^"]+)' "$fyle")
+wslview "$yewrell"

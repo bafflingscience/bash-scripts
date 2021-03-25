@@ -1,0 +1,9 @@
+#!/bin/zsh
+ /usr/local/bin/youtube-dl \
+ --config-location $HOME/.config/youtube-dl/config/youtube-dl.conf \
+ --playlist-items 1-20 \
+ -o "$HOME/Video/channels/Comedy/%(uploader)s/%(upload_date)s - %(title)s.%(ext)s" > \
+ /Volumes/fourtb/Video/channels/comedy/comedy_chan_log.txt 2>&1 \
+ --batch-file $HOME/Archive/channels/comedy.txt
+
+ echo "Wow! You get another participation trophy you soy chugging snowflake."

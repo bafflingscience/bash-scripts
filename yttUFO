@@ -1,0 +1,19 @@
+#!/bin/bash
+ $HOME/.pyenv/shims/youtube-dl \
+ --config-location $HOME/.config/youtube-dl/config/youtube-dl.conf \
+ --playlist-items 1-10 \
+ -o "/Volumes/fourtb/Video/channels/UFO/%(uploader)s/%(upload_date)s - %(title)s.%(ext)s" > /Volumes/fourtb/Video/channels/ufo/ufo_log.txt 2>&1 \
+ -f "mp4" \
+ --cookies /Users/user/Archive/cookies.txt \
+ --batch-file /Users/user/Archive/channels/ufo.txt \
+
+echo "The Truth is Out There"
+
+
+# --metadata 'description=Ben Shapiro'
+#--playlist-items 1-30 \
+# --max-downloads 100 \
+# --dateafter 20200301 \
+# --match-filter "description  'Andrew Klavan'" \
+# -o "~/Videos/YouTube/Channels/%(uploader)s/%(upload_date)s - %(title)s.%(ext)s" \
+

@@ -1,0 +1,8 @@
+# /bin/zsh
+echo "Starting the thing..you know..cmon man"
+[[ -f /usr/local/bin/ytt ]] && . ytt || $ERROR_MSG="No file found...you are wrong...try harder"
+echo "$ERROR_MSG"
+echo "Enter the Link for the..oh you know the thing...cmon man!"
+read video_url
+echo $ytdl
+

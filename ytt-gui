@@ -1,0 +1,16 @@
+#!/bin/zsh
+
+ytdl() {
+url=$(zenity --entry --title="What URL is?" --text="put your pretty little video link here please") \
+$HOME/.pyenv/shims/youtube-dl \
+  --config-location $HOME/.config/youtube-dl/config/youtube-dl.conf \
+  -o "/Volumes/fourtb/Video/uncategorized_ytt_downloads/%(upload_date)s %(title)s.%(ext)s" \
+$url | /usr/local/bin/zenprog
+}
+ytdl $url 2> /Volumes/fourtb/Video/uncategorized_ytt_downloads/ytt.errors.txt
+
+#echo "Well butter my buns and cover me in honey! I'm so frickin' proud!"
+#ARTIST='%(artist)s/'
+#-encoding ENCODING
+
+ #/usr/local/bin/youtube-dl \

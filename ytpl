@@ -1,0 +1,11 @@
+#!/bin/zsh
+
+ytdl() {
+  /usr/local/bin/youtube-dl \
+  --config-location $HOME/.config/youtube-dl/config/youtube-dl.conf \
+  --playlist-items 1-200 \
+  -o "/mnt/c/Users/theda/Videos/uncategorized_downloads/%(playlist_title)s/%(playlist_index)s %(title)s.%(ext)s" \
+  $1
+}
+ytdl $1 2> /mnt/c/Users/theda/Videos/uncategorized_downloads/ytpl.err.txt
+echo "My Lord!You\'re a smart one you handsome son of a bitch!"
