@@ -1,5 +1,6 @@
 #!/bin/zsh
-/usr/local/bin/youtube-dl \
+
+$HOME/.pyenv/shims/youtube-dl \
   --config-location $HOME/.config/youtube-dl/config/youtube-dl.conf \
   --playlist-items 1-20 \
   -o "/Volumes/fourtb/Video/channels/arts/%(uploader)s/%(upload_date)s - %(title)s.%(ext)s" > \
