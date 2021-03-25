@@ -8,4 +8,4 @@ ytdl() {
   $1
 }
 ytdl $1 2> /mnt/c/Users/theda/Videos/uncategorized_downloads/ytpl.err.txt
-echo "My Lord!You\'re a smart one you handsome son of a bitch!"
+echo "You handsome son of a bitch!"
