@@ -1,9 +1,9 @@
-#!/bin/bash
+#!/bin/zsh
 
 #Google API Keys
- --api-authentication=AIzaSyBuCPBdNcaLMzBQ_7JicLmFqlqeqeLlYXA
-
-## Path to file of previously downloaded channel ids 
+ --api-authentication={apiKey}
+ 
+ ## Path to file of previously downloaded channel ids 
  --download-archive=/home/user/Archive/downloaded.txt \
 
 ## Path to file of channel urls that are downloaded from on each run 
