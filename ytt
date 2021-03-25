@@ -8,14 +8,8 @@ $1
 }
 ytdl $1 2> /mnt/c/Users/theda/Videos/uncategorized_downloads/ytt.errors.txt \
 
-echo "Well butter my buns and cover me in honey! I'm so frickin' proud!"
+echo "The Heckin' Best, You Is."
 
   cd $HOME/Video/uncategorized_ytt_downloads;
   find . -type f \( -name '*.jpg' -or -name '*.webp' \) -delete \
   2> $HOME/Video/uncategorized_ytt_downloads/findfails.txt \
-
-
-#ARTIST='%(artist)s/'
-#-encoding ENCODING
-
- #/usr/local/bin/youtube-dl \
