@@ -6,4 +6,4 @@ $HOME/.pyenv/shims/youtube-dl \
 /Volumes/fourtb/Video/channels/tech/tech_logs.txt 2>&1 \
 --batch-file /Users/user/Archive/channels/tech.txt
 
-echo "My God you've done it you brilliant bastard."
+echo "My God you've done it you brilliant bastard!"
