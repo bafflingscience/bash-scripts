@@ -1,4 +1,5 @@
 #!/bin/zsh
+
 cat ~/Downloads/* | ffmpeg -f image2pipe -i - output.mkv
 
 # slow it down
