@@ -1,0 +1,8 @@
+!#/bin/zsh
+
+ytdl(){
+youtube-dl --auto-write-sub -o "$HOME/Video/uncategorized_downloads" \
+$1
+}
+$1
+echo "ok"
